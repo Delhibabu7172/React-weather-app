@@ -53,7 +53,7 @@ setsearch(value)
  </div>
 
   {weatherdata.weather && weatherdata.weather.length > 0 && (
-   <h2 className='text-xl font-bold text-black'>{weatherdata.weather[0].main}</h2>
+   <h2 className='text-xl font-bold text-black bg-white/90 h-[7vh] w-[10vw] p-6  sm:h-[7vh] sm:w-[10vw]  rounded-[100%] lg:rounded-full  flex items-center justify-center'>{weatherdata.weather[0].main}</h2>
    )}
 
  </div>
